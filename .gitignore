@@ -1,0 +1,33 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore data files
+*.csv
+*.tsv
+*.json
+*.sqlite
+*.h5
+
+# Ignore model weights
+*.h5
+*.pkl
+*.joblib
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
